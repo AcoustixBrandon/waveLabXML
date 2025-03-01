@@ -55,64 +55,7 @@ Loughborough Wave Lab and CEML are developed by Dan Browne, a Ph.D. student with
 -->
 
 <feed>
-	<simulation>
-		<simtitle>First Example Test</simtitle>
-		<nodesx>270</nodesx>
-		<nodesy>370</nodesy>
-		<nodesz>0</nodesz>
-		<timesteps>0</timesteps>
-		<vismode>Ez</vismode>
-        
-        
-	<planewave>
-            <xstart>135</xstart>
-            <ystart>20</ystart>
-            <xend>135</xend>
-            <yend>20</yend>
-            <pwtype>STANDARD</pwtype>
-            <wavelength>30</wavelength>
-            <tsstart>0</tsstart>
-        </planewave>
-		
-       <!-- Edge boundaries: take note of the start and end coordinates - these match with the included simulation modes within the app! -->
-        <boundary>
-            <xstart>0</xstart>
-            <ystart>0</ystart>
-            <xend>270</xend>
-            <yend>0</yend>
-            <bcond>MTC</bcond>
-            <meshedge>TOP</meshedge>
-        </boundary>
-        
-        <boundary>
-            <xstart>0</xstart>
-            <ystart>370</ystart>
-            <xend>270</xend>
-            <yend>370</yend>
-            <bcond>MTC</bcond>
-            <meshedge>BOTTOM</meshedge>
-        </boundary>
-        
-        <boundary>
-            <xstart>0</xstart>
-            <ystart>0</ystart>
-            <xend>0</xend>
-            <yend>370</yend>
-            <bcond>MTC</bcond>
-            <meshedge>LEFT</meshedge>
-        </boundary>
-        
-        <boundary>
-            <xstart>270</xstart>
-            <ystart>0</ystart>
-            <xend>270</xend>
-            <yend>370</yend>
-            <bcond>MTC</bcond>
-            <meshedge>RIGHT</meshedge>
-        </boundary>
-        
-			
-	</simulation>
+	
 	
 	<simulation>
 		<simtitle>Transmission Lines iPhone</simtitle>
