@@ -70,42 +70,43 @@ Loughborough Wave Lab and CEML are developed by Dan Browne, a Ph.D. student with
             	<tsstart>0</tsstart>
 		<excmode>SIN</excmode>
         </pulse>
-	<boundary>
-		<xstart>0</xstart>		
-		<ystart>0</ystart>
-		<xend>255</xend>
-		<yend>0</yend>
-		<bcond>MTC</bcond>
-		<meshedge>TOP</meshedge>
-	</boundary>
-<boundary>
-		<xstart>255</xstart>		
-		<ystart>512</ystart>
-		<xend>0</xend>
-		<yend>369</yend>
-		<bcond>MTC/bcond>
-		<meshedge>BOTTOM</meshedge>
-	</boundary>
-
-
-	
-
-	<boundary>
-		<xstart>0</xstart>		
-		<ystart>369</ystart>
-		<xend>0</xend>
-		<yend>0</yend>
-		<bcond>MTC</bcond>
-		<meshedge>LEFT</meshedge>
-	</boundary>
-	<boundary>
-		<xstart>255</xstart>		
-		<ystart>0</ystart>
-		<xend>255</xend>
-		<yend>369</yend>
-		<bcond>MTC</bcond>
-		<meshedge>RIGHT</meshedge>
-	</boundary>
+       <!-- Edge boundaries: take note of the start and end coordinates - these match with the included simulation modes within the app! -->
+        <boundary>
+            <xstart>0</xstart>
+            <ystart>0</ystart>
+            <xend>270</xend>
+            <yend>0</yend>
+            <bcond>MTC</bcond>
+            <meshedge>TOP</meshedge>
+        </boundary>
+        
+        <boundary>
+            <xstart>0</xstart>
+            <ystart>370</ystart>
+            <xend>270</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>BOTTOM</meshedge>
+        </boundary>
+        
+        <boundary>
+            <xstart>0</xstart>
+            <ystart>0</ystart>
+            <xend>0</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>LEFT</meshedge>
+        </boundary>
+        
+        <boundary>
+            <xstart>270</xstart>
+            <ystart>0</ystart>
+            <xend>270</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>RIGHT</meshedge>
+        </boundary>
+        
 			
 	</simulation>
 	
