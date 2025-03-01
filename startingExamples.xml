@@ -63,15 +63,13 @@ Loughborough Wave Lab and CEML are developed by Dan Browne, a Ph.D. student with
 		<timesteps>1024</timesteps>
 		<vismode>Ez<vismode>
 
-	<planewave>
-		<xstart>125</xstart>
-		<ystart>256</ystart>
-		<xend>131</xend>
-		<yend>256</yend>
-		<pwtype>STANDARD</pwtype>
-		<wavelength>60</wavelength>
-		<tsstart>0</tsstart>
-	</planewave>
+	<pulse>
+		<xpos>123</xpos>
+        	<ypos>155</ypos>
+            	<wavelength>35</wavelength>
+            	<tsstart>0</tsstart>
+		<excmode>SIN</excmode>
+        </pulse>
 	<boundary>
 		<xstart>0</xstart>		
 		<ystart>0</ystart>
