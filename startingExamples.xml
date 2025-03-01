@@ -56,58 +56,6 @@ Loughborough Wave Lab and CEML are developed by Dan Browne, a Ph.D. student with
 
 <feed>
 	<simulation>
-		<simtitle>First Example Test</simtitle>
-		<nodesx>256</nodesx>
-		<nodesy>512</nodesy>
-		<nodesz>0</nodesz>
-		<timesteps>1024</timesteps>
-		<vismode>Ez<vismode>
-
-	<pulse>
-		<xpos>123</xpos>
-        	<ypos>155</ypos>
-            	<wavelength>35</wavelength>
-            	<tsstart>0</tsstart>
-		<excmode>SIN</excmode>
-        </pulse>
-	<boundary>
-		<xstart>0</xstart>		
-		<ystart>0</ystart>
-		<xend>256</xend>
-		<yend>0</yend>
-		<bcond>MTC</bcond>
-		<meshedge>TOP</meshedge>
-	</boundary>
-
-	<boundary>
-		<xstart>256</xstart>		
-		<ystart>0</ystart>
-		<xend>256</xend>
-		<yend>512</yend>
-		<bcond>MTC</bcond>
-		<meshedge>RIGHT</meshedge>
-	</boundary>
-
-	<boundary>
-		<xstart>256</xstart>		
-		<ystart>512</ystart>
-		<xend>0</xend>
-		<yend>512</yend>
-		<bcond>MTC/bcond>
-		<meshedge>BOTTOM</meshedge>
-	</boundary>
-
-	<boundary>
-		<xstart>0</xstart>		
-		<ystart>512</ystart>
-		<xend>0</xend>
-		<yend>0</yend>
-		<bcond>MTC</bcond>
-		<meshedge>LEFT</meshedge>
-	</boundary>
-			
-	</simulation>
-	<simulation>
 		<simtitle>Transmission Lines iPhone</simtitle>
 		<nodesx>108</nodesx>
 		<nodesy>370</nodesy>
