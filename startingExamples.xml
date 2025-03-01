@@ -55,21 +55,25 @@ Loughborough Wave Lab and CEML are developed by Dan Browne, a Ph.D. student with
 -->
 
 <feed>
-		<simulation>
+	<simulation>
 		<simtitle>First Example Test</simtitle>
-		<nodesx>256</nodesx>
+		<nodesx>270</nodesx>
 		<nodesy>370</nodesy>
 		<nodesz>0</nodesz>
 		<timesteps>0</timesteps>
-		<vismode>Ez<vismode>
-
-	<pulse>
-		<xpos>123</xpos>
-        	<ypos>155</ypos>
-            	<wavelength>35</wavelength>
-            	<tsstart>0</tsstart>
-		<excmode>SIN</excmode>
-        </pulse>
+		<vismode>Ez</vismode>
+        
+        
+	<planewave>
+            <xstart>135</xstart>
+            <ystart>20</ystart>
+            <xend>135</xend>
+            <yend>20</yend>
+            <pwtype>STANDARD</pwtype>
+            <wavelength>30</wavelength>
+            <tsstart>0</tsstart>
+        </planewave>
+		
        <!-- Edge boundaries: take note of the start and end coordinates - these match with the included simulation modes within the app! -->
         <boundary>
             <xstart>0</xstart>
